@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+}
+
+button {
+    background: red;
+    padding: 20px 45px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+body {
+    text-align: center;
+}
+
+button,
+#form input[type='submit'] {
+    background: red;
+    padding: 20px 45px;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+button:hover,
+#form input[type='submit']:hover {
+    background: rgb(4, 170, 109);
+}
+
+#form {
+    width: 90%;
+    padding: 3%;
+}
+
+#form label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+#form input,
+textarea {
+    width: 90%;
+    padding: 10px 4%;
+}
+
+#form input[type='submit'] {
+    width: 100%;
+    padding: 10px 4%;
+    margin-top: 10px;
+}
+
+ul {
+    text-align: left;
+}
