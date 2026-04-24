@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+button {
+    background: red;
+    padding: 20px 45px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
