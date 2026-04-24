@@ -1,14 +1,18 @@
-let firstName = 'Mahmud';
-let age = 30;
+console.log('Hello');
+document.getElementById('title').innerHTML = 'Hello world';
 
-firstName = 'Emon'
+let sum = 50 + 70;
+console.log(sum);
 
-
-console.log(firstName);
-console.log(age + 40);
-
-function funcName() {
-    console.log('My First Funtion');
+if (sum > 100) {
+    console.log('Expensive');
+}else {
+    console.log("Cheep")
 }
 
-funcName()
+// Diclarassion
+function sayHello(name) {
+    console.log(`Hello ${name}`); // Function Statement
+}
+
+sayHello('Mahmud') // Function Experssion
