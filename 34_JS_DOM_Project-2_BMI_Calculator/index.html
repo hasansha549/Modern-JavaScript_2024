@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mahmudul Hasan">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/bmi_png_logo.png">
+    <!-- Font font-awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font font-awesome CDN -->
+    <!-- Bootstrap Icon CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Bootstrap Icon CDN -->
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div id="main">
+        <h1>BMI Calculator</h1>
+        <form action="#" method="get" id="form">
+            <label for="height">Height</label>
+            <input id="height" type="number" placeholder="In CM">
+            <label for="weight">Weight</label>
+            <input id="weight" type="number" placeholder="In KG">
+            <button id="button" type="button">Calculator</button>
+        </form>
+        <div class="result">
+            <h4>Your BMI Score</h4>
+            <h2 id="score">50.22</h2>
+        </div>
+        <div class="info">
+            <h4>BMI Weight Guide</h4>
+            <p class="pTag1">Under Weight = Less than 18.6</p>
+            <p class="pTag2">Normal Range = 18.6 and 24.9</p>
+            <p class="pTag3">OverWeight = Greater than 24.9</p>
+        </div>
+    </div>
+<!-- JavaScript  -->
+    <script src="script.js"></script>
+<!-- JavaScript  -->
+</body>
+</html>
