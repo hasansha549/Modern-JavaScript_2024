@@ -1,0 +1,45 @@
+*,
+*::after,
+*::before {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body J {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main_box {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: rgb(88, 224, 255);
+    padding: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero {
+    margin-top: 20px;
+    background: rgb(105, 118, 172);
+    padding: 40px 20px;
+    color: white;
+}
+
+button {
+    padding: 12px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+ul {
+    margin-left: 30px;
+    margin-top: 30px;
+}
